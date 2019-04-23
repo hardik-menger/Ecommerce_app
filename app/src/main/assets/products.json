@@ -1,0 +1,108 @@
+{
+	"status": 200,
+	"message": "products",
+	"products": [ {
+			"id": 16,
+			"name": "Samsung Galaxy S10",
+			"price": 65000.00,
+			"brand": "samsung"
+	},{
+		"id": 1,
+		"name": "Samsung Galaxy S7",
+		"price": 36500.00,
+		"brand": "samsung"
+	},
+		{
+			"id": 17,
+			"name": "Samsung Galaxy S9 Plus",
+			"price": 45000.00,
+			"brand": "samsung"
+		}
+	, {
+		"id": 2,
+		"name": "Samsung Galaxy S7 Edge",
+		"price": 40000.00,
+		"brand": "samsung"
+	}, {
+		"id": 3,
+		"name": "Samsung Galaxy S6 Edge",
+		"price": 32000.00,
+		"brand": "samsung"
+	}, {
+		"id": 4,
+		"name": "Samsung Galaxy S6",
+		"price": 28000.00,
+		"brand": "samsung"
+	}, {
+		"id": 5,
+		"name": "Sony Xperia Z5",
+		"price": 37000.00,
+		"brand": "sony"
+	}, {
+		"id": 6,
+		"name": "Sony Expria Z4",
+		"price": 28000.00,
+		"brand": "sony"
+	}, {
+		"id": 7,
+		"name": "Sony Xperia Z3",
+		"price": 20000.00,
+		"brand": "sony"
+	}, {
+		"id": 8,
+		"name": "Sony Xperia Z3",
+		"price": 20000.00,
+		"brand": "sony"
+	}, {
+			"id": 18,
+			"name": "iPhone X",
+			"price": 77000.00,
+			"brand": "apple"
+		}
+		,
+		{
+			"id": 19,
+			"name": "iPhone X Max",
+			"price": 99000.00,
+			"brand": "apple"
+		},
+		{
+		"id": 9,
+		"name": "iPhone 6+",
+		"price": 40000.00,
+		"brand": "apple"
+	}, {
+		"id": 10,
+		"name": "iPhone 6",
+		"price": 33000.00,
+		"brand": "apple"
+	}, {
+		"id": 11,
+		"name": "iPhone 5",
+		"price": 27000.00,
+		"brand": "apple"
+	}, {
+		"id": 12,
+		"name": "Flare S4 Plus",
+		"price": 7999.00,
+		"brand": "cherry"
+	}, {
+		"id": 13,
+		"name": "Flare S4",
+		"price": 4999.00,
+		"brand": "cherry"
+	}, {
+		"id": 14,
+		"name": "Cherry Mobile Flare S3",
+		"price": 2999.00,
+		"brand": "cherry"
+	}, {
+		"id": 15,
+		"name": "Rio 2",
+		"price": 4999.00,
+		"brand": "myphone"
+	}
+
+
+	]
+}

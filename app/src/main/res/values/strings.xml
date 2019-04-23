@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Shopping Cart</string>
+
+    <string name="button_add_to_cart">Add to cart</string>
+    <string name="button_remove_to_cart">Remove from cart</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="option_menu_item">cart</string>
+    <string name="button_submit">Submit</string>
+    <string name="success">Success!</string>
+    <string name="button_home">Back to home</string>
+
+    <string name="activity_cart_title">Cart list</string>
+    <string name="activity_user_info_title">User Information</string>
+    <string name="activity_user_confirm">Confirm</string>
+
+    <!-- ProductListFragment -->
+    <string name="dialog_add_cart_title">Add to cart?</string>
+    <string name="dialog_add_cart_message">Add %1$s to your cart?</string>
+    <string name="dialog_add_cart_succes">Item has been added to your cart!</string>
+
+    <!-- ShoppingCartActivity -->
+    <string name="button_checkout">Checkout</string>
+    <string name="text_total_items">Total items in cart : </string>
+    <string name="text_total_amount">Total Amount : </string>
+    <string name="text_cart_no_items">No items on cart.</string>
+    <string name="dialog_remove_cart_title">Remove item</string>
+    <string name="dialog_remove_cart_message">Are you sure to remove this item?</string>
+    <string name="dialog_cart_empty_title">Empty cart</string>
+    <string name="dialog_cart_empty_message">Cart is empty.</string>
+
+    <!-- CheckoutActivity -->
+    <string name="button_confirm">Confirm</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_mobile">Mobile number</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_credit_card">19 digit credit card number</string>
+    <string name="hint_credit_card_pin">3 digit pin</string>
+    <string name="text_card_type">Card Type</string>
+    <string name="text_card_type_visa">VISA</string>
+    <string name="text_card_type_mastercard">MASTERCARD</string>
+    <string name="text_card_number">Card Number</string>
+    <string name="textfield_required">Required!</string>
+    <string name="text_required_card_type">Select your card type</string>
+
+    <!-- ConfirmationActivity -->
+    <string name="text_cart_item_list">Cart item list</string>
+
+    <!-- OrderSuccessActivity -->
+    <string name="text_order_success">Congratulations! You\'re order has been submitted. We will process and deliver your order. Thank you for using our app.</string>
+</resources>
