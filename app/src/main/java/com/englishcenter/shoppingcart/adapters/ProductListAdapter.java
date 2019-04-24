@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -29,11 +30,12 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
     private Context mContext;
     private List<Products> productsList;
     private ShoppingCartInteraction.AddProduct mView;
-
+    private ImageView img;
     public ProductListAdapter(Context context, List<Products> productsList, ShoppingCartInteraction.AddProduct view) {
         this.mContext = context;
         this.productsList = productsList;
         this.mView = view;
+
     }
 
     @Override
@@ -52,6 +54,7 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
         holder.textProductName.setText(product.getProductName());
         holder.textProductBrand.setText(product.getProductBrand().toUpperCase());
         holder.textProductPrice.setText("₹ " + Float.toString(product.getProductPrice()));
+        holder.imageView.setImageResource(R.drawable.iphone);
         holder.relativeProductContainer.setTag(product.getProductPrice());
 
     }
@@ -74,6 +77,9 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
 
         @BindView(R.id.text_product_price)
         TextView textProductPrice;
+
+        @BindView(R.id.product_img)
+        ImageView imageView;
 
         public MyViewHolder(View itemView) {
             super(itemView);
