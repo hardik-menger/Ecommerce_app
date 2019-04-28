@@ -23,7 +23,7 @@
                 android:paddingRight="@dimen/title_padding_right"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:textSize="@dimen/text16" />
+                android:textSize="@dimen/text16"/>
         </RelativeLayout>
     </android.support.v7.widget.Toolbar>
 </LinearLayout>

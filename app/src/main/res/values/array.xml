@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer-array name="random_imgs">
+        <item>@drawable/iphone</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/samsung2</item>
+        <item>@drawable/oppo</item>
+    </integer-array>
+
+
+
+</resources>
